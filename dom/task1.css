@@ -1,0 +1,9 @@
+.box{
+    width: 2px;
+    height: 2px;
+    display: inline-block;
+    margin: 0 2px;
+}
+.boxes{
+    background-color: rgb(243, 218, 137);
+}
