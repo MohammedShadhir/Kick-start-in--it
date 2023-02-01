@@ -75,8 +75,8 @@ console.log("task3");
 
 function task3() {
     let num = [10,2,3,4,5]
-    let largestNumber=Math.min.apply(null,num)
-    return largestNumber
+    let smallestNumber=Math.min.apply(null,num)
+    return smallestNumber
 }
 console.log(task3());
 
@@ -106,7 +106,7 @@ console.log("task4");
 
 
 function task4(){
-    let num = [1,2];
+    let num = [1,2,4];
     let total=num.reduce(function(a,b){
         let sum= (a+b)/num.length;
         return sum;
