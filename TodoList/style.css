@@ -1,0 +1,98 @@
+body {
+    margin: 5%;
+    padding: 0%;
+
+}
+
+.main {
+    width: 50vw;
+    height: 60vh;
+    background-color: bisque;
+    padding: 2%;
+    border: 5px solid burlywood;
+    text-align: center;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: blue;
+
+}
+
+form {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 2%;
+
+}
+
+#Input-Text {
+    height: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+}
+
+input::placeholder {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#Input-date,
+#selected {
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 5%;
+}
+
+#selected {
+    height: 40px;
+    width: 190px;
+
+}
+
+
+
+input:focus {
+    color: rgb(96, 60, 12);
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.child1 {
+
+    margin: 10px;
+    text-align: start;
+}
+
+.child {
+    text-align: center;
+
+}
+
+#btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+li {
+    text-align: start;
+
+
+}
