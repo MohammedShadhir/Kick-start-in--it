@@ -1,0 +1,51 @@
+.main {
+    width: 100vW;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Row {
+
+    width: 450px;
+    height: 150px;
+    background-color: azure;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+.Column {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(34, 194, 194);
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(16, 17, 17);
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(34, 194, 194);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 2em;
+    text-align: center;
+
+
+}
+
+.Box {
+    width: 150;
+    height: 150;
+    background-color: brown;
+}
